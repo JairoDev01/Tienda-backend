@@ -6,11 +6,13 @@
     "type": "project",
     "require": {
         "php": ">=5.6.4",
+        "bheller/images-generator": "^1.0",
+        "fzaninotto/faker": "^1.7",
         "laravel/framework": "5.4.*",
-        "laravel/tinker": "~1.0"
+        "laravel/tinker": "~1.0",
+        "fzaninotto/company-name-generator": "dev-master"
     },
     "require-dev": {
-        "fzaninotto/faker": "~1.4",
         "mockery/mockery": "0.9.*",
         "phpunit/phpunit": "~5.0"
     },
