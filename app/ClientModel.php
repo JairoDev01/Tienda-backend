@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class ClienteModel extends Model
+class ClientModel extends Model
 {
     protected $table    = 'clientes';
     protected $fillabel = [ 'id_cliente',
